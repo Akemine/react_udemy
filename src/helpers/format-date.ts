@@ -1,4 +1,4 @@
-    const formatDate = (date: Date): string => {
+    const formatDate = (date: Date = new Date()): string => {
         return `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
     }
 

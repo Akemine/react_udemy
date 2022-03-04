@@ -1,5 +1,5 @@
-import React, { FunctionComponent, useState, useEffect } from 'react';
-import {useParams, Link, useNavigate } from 'react-router-dom';
+import { FunctionComponent, useState, useEffect } from 'react';
+import {useParams, Link } from 'react-router-dom';
 import Pokemon from '../models/pokemon';
 import POKEMONS from '../models/mock-pokemon';
 import formatDate from '../helpers/format-date';
